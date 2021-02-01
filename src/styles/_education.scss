@@ -1,0 +1,29 @@
+.EducationSection {
+  margin: 1rem;
+  display: flex;
+  .left-education-section {
+    width: 50vh;
+  }
+  .right-education-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    width: 100%;
+    .education-info1 {
+      text-align: left;
+    }
+    .education-info2 {
+      text-align: right;
+    }
+  }
+  //   @media screen and (max-width: 1100px) {
+  //     .EducationSection {
+  //       all: none;
+  //     }
+  //   }
+  @media screen and (max-width: 1400px) {
+    flex-direction: column;
+  }
+}

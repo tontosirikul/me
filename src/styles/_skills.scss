@@ -1,0 +1,16 @@
+.SkillsSection {
+  margin-top: 4.5rem;
+  display: flex;
+  flex-direction: column;
+
+  .skills-info {
+    width: 100%;
+
+    .skill-title {
+      text-transform: uppercase;
+      color: #8e1f67;
+    }
+    .skill-text {
+    }
+  }
+}
