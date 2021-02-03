@@ -1,0 +1,19 @@
+.ExperienceSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 4rem;
+  width: 100%;
+  .experience-info {
+    text-align: left;
+    ul {
+      margin-left: 1.5rem;
+    }
+  }
+  .experience-info2 {
+    text-align: right;
+  }
+  @media screen and (max-width: 1400px) {
+    // flex-direction: column;
+  }
+}
