@@ -6,12 +6,23 @@
 @import "./styles/skills.scss";
 @import "./styles/education";
 @import "./styles/experience";
+@import "./styles/awardcerts";
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
+body::-webkit-scrollbar {
+  width: 8px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #0056d865;
+  border-radius: 50px;
+}
+body::-webkit-scrollbar-track {
+  background-color: #5d5f64;
+}
 body {
   color: #a4acc4;
   font-family: "M PLUS Rounded 1c", sans-serif;
