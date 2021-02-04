@@ -24,13 +24,6 @@ function App() {
             <Route path="/projects" exact>
               <ProjectsPage />
             </Route>
-            {/* <Route
-              path="/blogs"
-              exact
-
-            > */}
-            {/* <BlogsPage /> */}
-            {/* </Route> */}
             <Route path="/contact" exact>
               <ContactPage />
             </Route>

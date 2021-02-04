@@ -2,11 +2,11 @@ import {
   faFacebook,
   faGithub,
   faLinkedin,
+  faMedium,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import { Link } from "react-router-dom";
 
 function HomePage() {
   return (
@@ -22,49 +22,61 @@ function HomePage() {
           and Software development that allows me to get real work experience.
         </p>
         <div className="icons">
-          <Link
+          <a
             className="icon-holder"
-            to={{ pathname: "https://github.com/tontosirikul" }}
+            href="https://github.com/tontosirikul"
+            rel="noreferrer"
             target="_blank"
           >
             <FontAwesomeIcon
               icon={faGithub}
               className="icon gh"
             ></FontAwesomeIcon>
-          </Link>
-          <Link
+          </a>
+          <a
             className="icon-holder"
-            to={{
-              pathname:
-                "https://www.linkedin.com/in/tanhapon-tosirikul-36841a160/",
-            }}
+            href="https://www.linkedin.com/in/tanhapon-tosirikul-36841a160/"
+            rel="noreferrer"
             target="_blank"
           >
             <FontAwesomeIcon
               icon={faLinkedin}
               className="icon ln"
             ></FontAwesomeIcon>
-          </Link>
-          <Link
+          </a>
+          <a
             className="icon-holder"
-            to={{ pathname: "https://www.facebook.com/TonTosirikul/" }}
+            href="https://www.facebook.com/TonTosirikul/"
+            rel="noreferrer"
             target="_blank"
           >
             <FontAwesomeIcon
               icon={faFacebook}
               className="icon fb"
             ></FontAwesomeIcon>
-          </Link>
-          <Link
+          </a>
+          <a
             className="icon-holder"
-            to={{ pathname: "https://www.youtube.com/user/VENICEFANSUB" }}
+            href="https://tontosirikul.medium.com"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <FontAwesomeIcon
+              icon={faMedium}
+              className="icon md"
+            ></FontAwesomeIcon>
+          </a>
+          <a
+            className="icon-holder"
+            href="https://www.youtube.com/user/VENICEFANSUB"
+            rel="noreferrer"
             target="_blank"
           >
             <FontAwesomeIcon
               icon={faYoutube}
               className="icon yt"
             ></FontAwesomeIcon>
-          </Link>
+          </a>
         </div>
       </header>
     </div>

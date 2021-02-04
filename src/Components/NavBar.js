@@ -26,17 +26,6 @@ function NavBar() {
             </NavLink>
           </li>
           <li className="nav-item">
-            <Link
-              className="icon-holder"
-              to={{
-                pathname: "https://tontosirikul.medium.com/",
-              }}
-              target="_blank"
-            >
-              Blogs
-            </Link>
-          </li>
-          <li className="nav-item">
             <NavLink to="/contact" exact activeClassName="active">
               Contact
             </NavLink>
