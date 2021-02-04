@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/me/static/css/main.659f311a.chunk.css",
+    "main.js": "/me/static/js/main.b086593b.chunk.js",
+    "main.js.map": "/me/static/js/main.b086593b.chunk.js.map",
+    "runtime-main.js": "/me/static/js/runtime-main.5a045aa1.js",
+    "runtime-main.js.map": "/me/static/js/runtime-main.5a045aa1.js.map",
+    "static/js/2.ddc97673.chunk.js": "/me/static/js/2.ddc97673.chunk.js",
+    "static/js/2.ddc97673.chunk.js.map": "/me/static/js/2.ddc97673.chunk.js.map",
+    "index.html": "/me/index.html",
+    "static/css/main.659f311a.chunk.css.map": "/me/static/css/main.659f311a.chunk.css.map",
+    "static/js/2.ddc97673.chunk.js.LICENSE.txt": "/me/static/js/2.ddc97673.chunk.js.LICENSE.txt",
+    "static/media/Coursera_Math4ml.07343348.jpg": "/me/static/media/Coursera_Math4ml.07343348.jpg",
+    "static/media/Coursera_Python3.958ce3da.jpg": "/me/static/media/Coursera_Python3.958ce3da.jpg",
+    "static/media/Coursera_ai4e.416796ac.jpg": "/me/static/media/Coursera_ai4e.416796ac.jpg",
+    "static/media/about.40a49ae0.jpg": "/me/static/media/about.40a49ae0.jpg",
+    "static/media/avatar.249f85cb.jpeg": "/me/static/media/avatar.249f85cb.jpeg",
+    "static/media/chula_ds.099d3c3c.jpg": "/me/static/media/chula_ds.099d3c3c.jpg",
+    "static/media/datacamp_py.08f70234.jpg": "/me/static/media/datacamp_py.08f70234.jpg",
+    "static/media/App.scss": "/me/static/media/dots.9978678b.svg",
+    "static/media/emailme.a60657eb.svg": "/me/static/media/emailme.a60657eb.svg",
+    "static/media/location.5cd6776e.svg": "/me/static/media/location.5cd6776e.svg",
+    "static/media/logo_bps.2f15f924.webp": "/me/static/media/logo_bps.2f15f924.webp",
+    "static/media/logo_kmitl.42ddbdad.png": "/me/static/media/logo_kmitl.42ddbdad.png",
+    "static/media/phone.ef86e22a.svg": "/me/static/media/phone.ef86e22a.svg",
+    "static/media/udacity_cpp.ab3c015d.jpg": "/me/static/media/udacity_cpp.ab3c015d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5a045aa1.js",
+    "static/js/2.ddc97673.chunk.js",
+    "static/css/main.659f311a.chunk.css",
+    "static/js/main.b086593b.chunk.js"
+  ]
+}
