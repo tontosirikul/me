@@ -1,6 +1,7 @@
 import {
   faFacebook,
   faGithub,
+  faLinkedin,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -23,22 +24,35 @@ function HomePage() {
         <div className="icons">
           <Link
             className="icon-holder"
-            to={{ pathname: "https://www.facebook.com/TonTosirikul/" }}
-            target="_blank"
-          >
-            <FontAwesomeIcon
-              icon={faFacebook}
-              className="icon fb"
-            ></FontAwesomeIcon>
-          </Link>
-          <Link
-            className="icon-holder"
             to={{ pathname: "https://github.com/tontosirikul" }}
             target="_blank"
           >
             <FontAwesomeIcon
               icon={faGithub}
               className="icon gh"
+            ></FontAwesomeIcon>
+          </Link>
+          <Link
+            className="icon-holder"
+            to={{
+              pathname:
+                "https://www.linkedin.com/in/tanhapon-tosirikul-36841a160/",
+            }}
+            target="_blank"
+          >
+            <FontAwesomeIcon
+              icon={faLinkedin}
+              className="icon ln"
+            ></FontAwesomeIcon>
+          </Link>
+          <Link
+            className="icon-holder"
+            to={{ pathname: "https://www.facebook.com/TonTosirikul/" }}
+            target="_blank"
+          >
+            <FontAwesomeIcon
+              icon={faFacebook}
+              className="icon fb"
             ></FontAwesomeIcon>
           </Link>
           <Link

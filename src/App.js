@@ -3,7 +3,7 @@ import NavBar from "./Components/NavBar";
 import HomePage from "./Pages/HomePage";
 import AboutPage from "./Pages/AboutPage";
 import ProjectsPage from "./Pages/ProjectsPage";
-import BlogsPage from "./Pages/BlogsPage";
+// import BlogsPage from "./Pages/BlogsPage";
 import ContactPage from "./Pages/ContactPage";
 import { Switch, Route } from "react-router-dom";
 function App() {
@@ -24,9 +24,13 @@ function App() {
             <Route path="/projects" exact>
               <ProjectsPage />
             </Route>
-            <Route path="/blogs" exact>
-              <BlogsPage />
-            </Route>
+            {/* <Route
+              path="/blogs"
+              exact
+
+            > */}
+            {/* <BlogsPage /> */}
+            {/* </Route> */}
             <Route path="/contact" exact>
               <ContactPage />
             </Route>

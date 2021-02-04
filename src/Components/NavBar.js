@@ -1,6 +1,6 @@
 import React from "react";
 import avatar from "../img/avatar.jpeg";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 function NavBar() {
   return (
@@ -26,9 +26,15 @@ function NavBar() {
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/blogs" exact activeClassName="active">
+            <Link
+              className="icon-holder"
+              to={{
+                pathname: "https://tontosirikul.medium.com/",
+              }}
+              target="_blank"
+            >
               Blogs
-            </NavLink>
+            </Link>
           </li>
           <li className="nav-item">
             <NavLink to="/contact" exact activeClassName="active">
