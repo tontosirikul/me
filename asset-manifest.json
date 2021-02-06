@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.06a6a73f.chunk.css",
-    "main.js": "/static/js/main.48559f59.chunk.js",
-    "main.js.map": "/static/js/main.48559f59.chunk.js.map",
+    "main.css": "/static/css/main.743fab63.chunk.css",
+    "main.js": "/static/js/main.c5885d2c.chunk.js",
+    "main.js.map": "/static/js/main.c5885d2c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.112f52ad.js",
     "runtime-main.js.map": "/static/js/runtime-main.112f52ad.js.map",
-    "static/js/2.98ea1c60.chunk.js": "/static/js/2.98ea1c60.chunk.js",
-    "static/js/2.98ea1c60.chunk.js.map": "/static/js/2.98ea1c60.chunk.js.map",
+    "static/js/2.64a2f71b.chunk.js": "/static/js/2.64a2f71b.chunk.js",
+    "static/js/2.64a2f71b.chunk.js.map": "/static/js/2.64a2f71b.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.06a6a73f.chunk.css.map": "/static/css/main.06a6a73f.chunk.css.map",
-    "static/js/2.98ea1c60.chunk.js.LICENSE.txt": "/static/js/2.98ea1c60.chunk.js.LICENSE.txt",
+    "static/css/main.743fab63.chunk.css.map": "/static/css/main.743fab63.chunk.css.map",
+    "static/js/2.64a2f71b.chunk.js.LICENSE.txt": "/static/js/2.64a2f71b.chunk.js.LICENSE.txt",
     "static/media/Coursera_Math4ml.07343348.jpg": "/static/media/Coursera_Math4ml.07343348.jpg",
     "static/media/Coursera_Python3.958ce3da.jpg": "/static/media/Coursera_Python3.958ce3da.jpg",
     "static/media/Coursera_ai4e.416796ac.jpg": "/static/media/Coursera_ai4e.416796ac.jpg",
+    "static/media/Egg-Classification.a058bf8b.png": "/static/media/Egg-Classification.a058bf8b.png",
     "static/media/about.40a49ae0.jpg": "/static/media/about.40a49ae0.jpg",
     "static/media/avatar.249f85cb.jpeg": "/static/media/avatar.249f85cb.jpeg",
     "static/media/chula_ds.099d3c3c.jpg": "/static/media/chula_ds.099d3c3c.jpg",
@@ -22,13 +23,15 @@
     "static/media/location.5cd6776e.svg": "/static/media/location.5cd6776e.svg",
     "static/media/logo_bps.2f15f924.webp": "/static/media/logo_bps.2f15f924.webp",
     "static/media/logo_kmitl.42ddbdad.png": "/static/media/logo_kmitl.42ddbdad.png",
+    "static/media/mobilerobot.9ce4996f.png": "/static/media/mobilerobot.9ce4996f.png",
     "static/media/phone.ef86e22a.svg": "/static/media/phone.ef86e22a.svg",
-    "static/media/udacity_cpp.ab3c015d.jpg": "/static/media/udacity_cpp.ab3c015d.jpg"
+    "static/media/udacity_cpp.ab3c015d.jpg": "/static/media/udacity_cpp.ab3c015d.jpg",
+    "static/media/ventilator.2b631e02.png": "/static/media/ventilator.2b631e02.png"
   },
   "entrypoints": [
     "static/js/runtime-main.112f52ad.js",
-    "static/js/2.98ea1c60.chunk.js",
-    "static/css/main.06a6a73f.chunk.css",
-    "static/js/main.48559f59.chunk.js"
+    "static/js/2.64a2f71b.chunk.js",
+    "static/css/main.743fab63.chunk.css",
+    "static/js/main.c5885d2c.chunk.js"
   ]
 }
