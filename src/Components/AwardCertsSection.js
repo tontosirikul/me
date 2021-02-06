@@ -5,7 +5,7 @@ function AwardCertsSection({ image, title, organization }) {
     <div className="AwardCertsSection">
       <div className="AwardCerts">
         <div className="Awardcontent">
-          <img src={image} alt="" />
+          <img src={image} alt="" className="Item-img-certificate" />
           <h3 className="AwardCertsName">{title}</h3>
           <h5 className="Organization">{organization}</h5>
         </div>

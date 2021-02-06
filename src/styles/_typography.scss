@@ -4,12 +4,16 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 80%;
-}
-.greeting-text {
-  color: white;
-  text-align: center;
-  span {
-    color: #037fff;
+  .greeting-text {
+    color: white;
+    text-align: center;
+    span {
+      color: #037fff;
+    }
+  }
+  .loop {
+    text-align: center;
+    font-size: 5rem;
   }
 }
 

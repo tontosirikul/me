@@ -13,7 +13,7 @@ function EducationSection({
         <img src={school_logo} alt=""></img>
       </div>
       <div className="right-education-section">
-        <div className="education-info">
+        <div className="education-info1">
           <h3>{school_name}</h3>
           <p>{school_program}</p>
           <p>{info}</p>

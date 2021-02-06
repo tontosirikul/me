@@ -27,6 +27,7 @@ function ContactPage() {
             icon={phone}
             text1={"+66 814540444 (Me)"}
             text2={"+66 44612488  (HOME)"}
+            title={"PHONE"}
           />
           <ContactItem
             icon={email}

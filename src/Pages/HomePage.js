@@ -7,20 +7,23 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import Typist from "react-typist";
+import TypistLoop from "react-typist-loop";
 
 function HomePage() {
   return (
     <div className="HomePage">
       <header className="greeting">
         <h1 className="greeting-text">
-          Hi, I am <span>Tanhapon Tosirikul</span>
+          Hi, welcone to <span>TonTosirikul</span>'s site.
         </h1>
         <p className="h-sub-text">
-          A self-motivated, enthusiastic Third years engineering student with
-          various range of programming skills. Currently, looking for an
-          internship position related to any kind of Robotics, Machine learning
-          and Software development that allows me to get real work experience.
+          This site is a part of my first react portfolio project, which you can
+          find all of my information, projects, blogs, contacts and etc via
+          navigation on the left or you can check out my external site at these
+          icons down below.
         </p>
+
         <div className="icons">
           <a
             className="icon-holder"
@@ -77,6 +80,22 @@ function HomePage() {
               className="icon yt"
             ></FontAwesomeIcon>
           </a>
+        </div>
+        <div className="loop">
+          <TypistLoop interval={1000}>
+            {[
+              "Robotics",
+              "Software Development",
+              "Artificial Intelligence",
+              "Blogging",
+              "Youtuber",
+              "Book reader",
+            ].map((text) => (
+              <Typist key={text} startDelay={500}>
+                {text}
+              </Typist>
+            ))}
+          </TypistLoop>
         </div>
       </header>
     </div>
