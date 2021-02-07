@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.895b9ec3.chunk.css",
-    "main.js": "/static/js/main.724ad5af.chunk.js",
-    "main.js.map": "/static/js/main.724ad5af.chunk.js.map",
+    "main.css": "/static/css/main.167b32c9.chunk.css",
+    "main.js": "/static/js/main.e2482ece.chunk.js",
+    "main.js.map": "/static/js/main.e2482ece.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.112f52ad.js",
     "runtime-main.js.map": "/static/js/runtime-main.112f52ad.js.map",
     "static/js/2.5de63d86.chunk.js": "/static/js/2.5de63d86.chunk.js",
     "static/js/2.5de63d86.chunk.js.map": "/static/js/2.5de63d86.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.895b9ec3.chunk.css.map": "/static/css/main.895b9ec3.chunk.css.map",
+    "static/css/main.167b32c9.chunk.css.map": "/static/css/main.167b32c9.chunk.css.map",
     "static/js/2.5de63d86.chunk.js.LICENSE.txt": "/static/js/2.5de63d86.chunk.js.LICENSE.txt",
     "static/media/Coursera_Math4ml.07343348.jpg": "/static/media/Coursera_Math4ml.07343348.jpg",
     "static/media/Coursera_Python3.958ce3da.jpg": "/static/media/Coursera_Python3.958ce3da.jpg",
     "static/media/Coursera_ai4e.416796ac.jpg": "/static/media/Coursera_ai4e.416796ac.jpg",
     "static/media/Egg-Classification.a058bf8b.png": "/static/media/Egg-Classification.a058bf8b.png",
-    "static/media/about.773522bb.jpg": "/static/media/about.773522bb.jpg",
+    "static/media/about.773522bb.JPG": "/static/media/about.773522bb.JPG",
     "static/media/avatar.249f85cb.jpeg": "/static/media/avatar.249f85cb.jpeg",
     "static/media/chula_ds.099d3c3c.jpg": "/static/media/chula_ds.099d3c3c.jpg",
     "static/media/datacamp_py.08f70234.jpg": "/static/media/datacamp_py.08f70234.jpg",
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.112f52ad.js",
     "static/js/2.5de63d86.chunk.js",
-    "static/css/main.895b9ec3.chunk.css",
-    "static/js/main.724ad5af.chunk.js"
+    "static/css/main.167b32c9.chunk.css",
+    "static/js/main.e2482ece.chunk.js"
   ]
 }
