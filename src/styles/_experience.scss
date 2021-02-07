@@ -9,6 +9,9 @@
     h3 {
       color: #cf2c96;
     }
+    p {
+      color: #20adee;
+    }
     ul {
       margin-left: 1.5rem;
     }
@@ -16,7 +19,29 @@
   .experience-info2 {
     text-align: right;
   }
-  // @media screen and (max-width: 1400px) {
-  //   // flex-direction: column;
-  // }
+  @media screen and (max-width: 1400px) {
+    flex-direction: column;
+    .experience-info1 {
+      h3 {
+        text-align: center;
+      }
+      p {
+        text-align: center;
+      }
+      ul {
+        margin-top: 1rem;
+        list-style: square;
+        text-align: left;
+      }
+    }
+    .experience-info2 {
+      margin-top: 1rem;
+      h3 {
+        text-align: center;
+      }
+      p {
+        text-align: center;
+      }
+    }
+  }
 }

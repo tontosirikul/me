@@ -9,7 +9,7 @@ function ExperienceSection({ workplace, position, infos, city, period }) {
         <p>{position}</p>
         <ul>{infoItems}</ul>
       </div>
-      <div className="eperience-info2">
+      <div className="experience-info2">
         <h3>{city}</h3>
         <p>{period}</p>
       </div>

@@ -2,7 +2,7 @@
   margin: 1rem;
   display: flex;
   .left-education-section {
-    width: 50vh;
+    // width: 50vh;
   }
   .right-education-section {
     display: flex;
@@ -16,17 +16,36 @@
       h3 {
         color: #cf2c96;
       }
+      .highlight {
+        color: #20adee;
+      }
     }
     .education-info2 {
       text-align: right;
     }
   }
-  //   @media screen and (max-width: 1100px) {
-  //     .EducationSection {
-  //       all: none;
-  //     }
-  //   }
-  @media screen and (max-width: 1400px) {
+  @media screen and (max-width: 441px) {
+    margin: 0;
+    .left-education-section {
+      display: flex;
+      justify-content: center;
+    }
+
+    .right-education-section {
+      flex-direction: column;
+      .education-info1 {
+        text-align: center;
+      }
+      .education-info2 {
+        text-align: center;
+      }
+    }
+  }
+  @media screen and (max-width: 1100px) {
+    .left-education-section {
+      display: flex;
+      justify-content: center;
+    }
     flex-direction: column;
   }
 }

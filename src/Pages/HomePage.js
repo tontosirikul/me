@@ -15,7 +15,7 @@ function HomePage() {
     <div className="HomePage">
       <header className="greeting">
         <h1 className="greeting-text">
-          Hi, welcone to <span>TonTosirikul</span>'s site.
+          Hi, welcome to <span>TonTosirikul</span>'s site.
         </h1>
         <p className="h-sub-text">
           This site is my first react portfolio project, which you can find all
@@ -83,12 +83,11 @@ function HomePage() {
         <div className="loop">
           <TypistLoop interval={1000}>
             {[
-              "Robotics",
-              "Software Development",
-              "Artificial Intelligence",
-              "Blogging",
+              "Robotics & AI Engineer",
+              "Software Developer",
+              "Blogger",
               "Youtuber",
-              "Book reader",
+              "Reader",
             ].map((text) => (
               <Typist key={text} startDelay={500}>
                 {text}

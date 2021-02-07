@@ -10,7 +10,14 @@
       text-transform: uppercase;
       color: #cf2c96;
     }
-    .skill-text {
+  }
+  @media screen and (max-width: 441px) {
+    margin: 1;
+    .skill-title {
+      text-align: center;
+    }
+    .skills-info {
+      text-align: center;
     }
   }
 }

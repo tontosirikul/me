@@ -20,7 +20,7 @@ function NavBar() {
               About
             </NavLink>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <NavLink to="/projects" exact activeClassName="active">
               Projects
             </NavLink>
@@ -29,7 +29,7 @@ function NavBar() {
             <NavLink to="/contact" exact activeClassName="active">
               Contact
             </NavLink>
-          </li>
+          </li> */}
         </ul>
         <footer className="footer">
           <p>@2021 Tanhapon Tosirikul</p>

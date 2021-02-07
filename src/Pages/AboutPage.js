@@ -49,7 +49,7 @@ function AboutPage() {
           );
         })}
       </div>
-      <Title
+      {/* <Title
         title={"Awards and Certificates"}
         span={"Awards and Certificates"}
       />
@@ -63,7 +63,7 @@ function AboutPage() {
             />
           );
         })}
-      </div>
+      </div> */}
       <Title title={"Skills"} span={"Skills"} />
       <div className="skills-container">
         {skills.map((skill) => {
