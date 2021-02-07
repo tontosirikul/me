@@ -1,4 +1,8 @@
 .ProjectsPage {
+  @media screen and (max-width: 1000px) {
+    margin-left: 0;
+    width: 100%;
+  }
 }
 
 .projects {
@@ -61,9 +65,8 @@
         }
       }
     }
-
     h2 {
-      color: #8e1f67;
+      color: #cf2c96;
       transition: all 0.3s ease-in-out;
       &:hover {
         color: #037fff;

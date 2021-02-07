@@ -41,3 +41,9 @@ span {
   width: auto;
   max-width: 20rem;
 }
+
+@media screen and (max-width: 411px) {
+  html {
+    font-size: 70%;
+  }
+}

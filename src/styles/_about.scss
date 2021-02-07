@@ -24,13 +24,6 @@
       }
     }
   }
-  @media screen and (max-width: 1400px) {
-    flex-direction: column;
-    .about-info {
-      margin-left: 0;
-      margin-top: 1rem;
-    }
-  }
 }
 
 .about-details {
@@ -45,7 +38,7 @@
   }
   .left-section {
     font-weight: 800;
-    color: #8e1f67;
+    color: #cf2c96;
   }
 }
 
@@ -100,5 +93,44 @@
   @media screen and (max-width: 1100px) {
     grid-template-columns: repeat(1, 1fr);
     margin-bottom: 2rem;
+  }
+}
+
+.btn-port {
+  padding: 0.3rem 1rem;
+  background-color: #0381ff5b;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: inherit;
+  font-family: inherit;
+  color: white;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease-in-out;
+  &:not(:last-child) {
+    margin-right: 1rem;
+  }
+  &:hover {
+    background-color: #037fff;
+  }
+  &:active {
+    background-color: #037fff;
+  }
+  &:focus {
+    background-color: #037fff;
+  }
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 10rem;
+  flex-wrap: wrap;
+  @media screen and (max-width: 1270px) {
+    margin: 2rem 5rem;
+  }
+  @media screen and (max-width: 1100px) {
+    margin: 2rem 2rem;
   }
 }

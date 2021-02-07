@@ -14,6 +14,12 @@
   .loop {
     text-align: center;
     font-size: 5rem;
+    @media screen and (max-width: 1000px) {
+      font-size: 3rem;
+    }
+    @media screen and (max-width: 411px) {
+      font-size: 1.5rem;
+    }
   }
 }
 
