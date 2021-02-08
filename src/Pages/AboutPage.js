@@ -34,7 +34,6 @@ function AboutPage() {
           );
         })}
       </div>
-
       <Title title={"Experience"} span={"EXPERIENCE"} />
       <div className="experience-container">
         {experiences.map((experience) => {
@@ -49,10 +48,7 @@ function AboutPage() {
           );
         })}
       </div>
-      {/* <Title
-        title={"Awards and Certificates"}
-        span={"Awards and Certificates"}
-      />
+      <Title title={"Awards and Certificates"} span={"Awards"} />
       <div className="awards-containers">
         {awardCerts.map((awardCert) => {
           return (
@@ -63,7 +59,7 @@ function AboutPage() {
             />
           );
         })}
-      </div> */}
+      </div>
       <Title title={"Skills"} span={"Skills"} />
       <div className="skills-container">
         {skills.map((skill) => {

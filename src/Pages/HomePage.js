@@ -18,8 +18,8 @@ function HomePage() {
           Hi, welcome to <span>TonTosirikul</span>'s site.
         </h1>
         <p className="h-sub-text">
-          This site is my first react portfolio project, which you can find all
-          of my information, projects, blogs, contacts and etc via navigation
+          This site is my first react portfolio project, where you can find all
+          of my information, projects, blogs, contacts, etc via the navigation
           bar or you can check out my external sites at these icons down below.
         </p>
 
