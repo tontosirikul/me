@@ -5,13 +5,14 @@ import Title from "../Components/Title";
 import projects from "../Components/allProjects";
 
 function ProjectsPage() {
-  const Cate = ["All"];
+  var Cate = ["All"];
   projects.forEach((project) => {
     project.category.forEach((c) => {
       Cate.push(c);
     });
   });
-  const Allcate = [new Set(Cate)];
+
+  Cate = [...new Set(Cate)];
 
   const [menuItems, setMenuItems] = useState(projects);
 
@@ -31,7 +32,7 @@ function ProjectsPage() {
         <Title title={"Projects"} span={"Projects"}></Title>
       </div>
       <div className="projects-data">
-        <Categories filter={filter} categories={Allcate} />
+        <Categories filter={filter} categories={Cate} />
         <MenuItems menuItem={menuItems} />
       </div>
     </div>
