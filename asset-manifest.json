@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.7173f601.chunk.css",
-    "main.js": "/static/js/main.cfb9a353.chunk.js",
-    "main.js.map": "/static/js/main.cfb9a353.chunk.js.map",
+    "main.css": "/static/css/main.ea745606.chunk.css",
+    "main.js": "/static/js/main.95a2e8f6.chunk.js",
+    "main.js.map": "/static/js/main.95a2e8f6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.112f52ad.js",
     "runtime-main.js.map": "/static/js/runtime-main.112f52ad.js.map",
     "static/js/2.b67f7393.chunk.js": "/static/js/2.b67f7393.chunk.js",
     "static/js/2.b67f7393.chunk.js.map": "/static/js/2.b67f7393.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.7173f601.chunk.css.map": "/static/css/main.7173f601.chunk.css.map",
+    "static/css/main.ea745606.chunk.css.map": "/static/css/main.ea745606.chunk.css.map",
     "static/js/2.b67f7393.chunk.js.LICENSE.txt": "/static/js/2.b67f7393.chunk.js.LICENSE.txt",
     "static/media/Coursera_Math4ml.07343348.jpg": "/static/media/Coursera_Math4ml.07343348.jpg",
     "static/media/Coursera_Python3.958ce3da.jpg": "/static/media/Coursera_Python3.958ce3da.jpg",
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.112f52ad.js",
     "static/js/2.b67f7393.chunk.js",
-    "static/css/main.7173f601.chunk.css",
-    "static/js/main.cfb9a353.chunk.js"
+    "static/css/main.ea745606.chunk.css",
+    "static/js/main.95a2e8f6.chunk.js"
   ]
 }
