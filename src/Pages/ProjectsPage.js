@@ -1,19 +1,18 @@
-import React from "react";
-import { useState } from "react/cjs/react.development";
+import React, { useState } from "react";
 import Categories from "../Components/Categories";
 import MenuItems from "../Components/MenuItems";
 import Title from "../Components/Title";
 import projects from "../Components/allProjects";
 
-const Cate = ["All"];
-projects.forEach((project) => {
-  project.category.forEach((c) => {
-    Cate.push(c);
-  });
-});
-const Allcate = [...new Set(Cate)];
-
 function ProjectsPage() {
+  const Cate = ["All"];
+  projects.forEach((project) => {
+    project.category.forEach((c) => {
+      Cate.push(c);
+    });
+  });
+  const Allcate = [new Set(Cate)];
+
   const [menuItems, setMenuItems] = useState(projects);
 
   const filter = (category) => {

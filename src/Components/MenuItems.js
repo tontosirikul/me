@@ -28,15 +28,6 @@ function MenuItems({ menuItem }) {
             </div>
             <h2>{item.title}</h2>
             <p>{item.detail}</p>
-            {/* <ul>
-              {item.category.map((cate) => {
-                return (
-                  <li>
-                    <div className="box">{cate}</div>
-                  </li>
-                );
-              })}
-            </ul> */}
           </div>
         );
       })}
