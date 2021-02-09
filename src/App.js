@@ -34,9 +34,9 @@ function App() {
             <Route path="/projects" exact>
               <ProjectsPage />
             </Route>
-            {/* <Route path="/contact" exact>
+            <Route path="/contact" exact>
               <ContactPage />
-            </Route> */}
+            </Route>
           </Switch>
         </div>
       </div>
