@@ -20,12 +20,12 @@ function NavBar() {
               About
             </NavLink>
           </li>
-          {/* <li className="nav-item">
+          <li className="nav-item">
             <NavLink to="/projects" exact activeClassName="active">
               Projects
             </NavLink>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <NavLink to="/contact" exact activeClassName="active">
               Contact
             </NavLink>

@@ -28,7 +28,7 @@ function MenuItems({ menuItem }) {
             </div>
             <h2>{item.title}</h2>
             <p>{item.detail}</p>
-            <ul>
+            {/* <ul>
               {item.category.map((cate) => {
                 return (
                   <li>
@@ -36,7 +36,7 @@ function MenuItems({ menuItem }) {
                   </li>
                 );
               })}
-            </ul>
+            </ul> */}
           </div>
         );
       })}
