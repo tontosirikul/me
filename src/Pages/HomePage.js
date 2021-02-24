@@ -9,11 +9,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import Typist from "react-typist";
 import TypistLoop from "react-typist-loop";
+import logo from "../img/logo-removebg.png";
 
 function HomePage() {
   return (
     <div className="HomePage">
       <header className="greeting">
+        {/* <img src={logo} /> */}
         <h1 className="greeting-text">
           Hi, welcome to <span>TonTosirikul</span>'s site.
         </h1>
@@ -82,13 +84,7 @@ function HomePage() {
         </div>
         <div className="loop">
           <TypistLoop interval={1000}>
-            {[
-              "Robotics & AI Engineer",
-              "Software Developer",
-              "Blogger",
-              "Youtuber",
-              "Reader",
-            ].map((text) => (
+            {["Robotics & AI Engineer", "Software Developer"].map((text) => (
               <Typist key={text} startDelay={500}>
                 {text}
               </Typist>

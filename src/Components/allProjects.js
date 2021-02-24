@@ -1,6 +1,7 @@
 import Ventilator from "../img/ventilator.png";
 import eggclassification from "../img/Egg-Classification.png";
 import mobilerobot from "../img/mobilerobot.png";
+import snakegame from "../img/snakegame.png";
 const projects = [
   {
     id: 1,
@@ -38,6 +39,18 @@ const projects = [
     title: "Mobile Robot Admin Webapp",
     detail:
       "Every robots need interface to control, does it better to use webapp instead of use the command line.",
+  },
+  {
+    id: 4,
+    category: ["C++", "OOP"],
+    link1: "",
+    link2: "https://github.com/tontosirikul/Udacity-CppND",
+    icon1: "G",
+    icon2: "Y",
+    image: snakegame,
+    title: "C++ Udacity Projects",
+    detail:
+      "Implemented the knowledge from C++ nanodegree, from implement A* star to create the snake game",
   },
 ];
 

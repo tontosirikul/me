@@ -5,6 +5,13 @@ function MenuItems({ menuItem }) {
   return (
     <div className="projects">
       {menuItem.map((item) => {
+        var nolink_1, nolink_2;
+        if (item.link1 === "") {
+          nolink_1 = true;
+        }
+        if (item.link2 === "") {
+          nolink_2 = true;
+        }
         return (
           <div className="project" key={item.id}>
             <div className="image-data">
@@ -17,6 +24,7 @@ function MenuItems({ menuItem }) {
                       className="icon gh"
                     ></FontAwesomeIcon>
                   </a>
+
                   <a href={item.link1}>
                     <FontAwesomeIcon
                       icon={faYoutube}

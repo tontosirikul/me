@@ -31,7 +31,7 @@ const skills = [
   },
   {
     id: 7,
-    skill: "ROS, PLC",
+    skill: "Language",
     stack: "Thai (Native), English (IELTS 6.5)",
   },
 ];
